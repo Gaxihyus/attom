@@ -1,0 +1,31 @@
+{
+	"token": "MTA0MDY3NjkzODQzMzQ1MDAxNg.Gi_DiH.76HqHTy4Jvxf4rRnMkBh3IfHpW0Nd_ttgLa5yM",
+	"clientId": "1040676938433450016",
+	"guildId": "760625337117179912",
+	"hypixel_api_key":"6b5a14f9-6527-4e4a-a2e6-ed3967e035ad",
+	"mongo_url": "mongodb+srv://Gaxyhs:88008842thi@attomdb.k3am43u.mongodb.net/?retryWrites=true&w=majority",
+	"currencyPrefix": "$",
+	"baseStockPrices":
+	{
+		"attom": 100
+	},
+	"moneyActions": {
+		"work": {
+			"minPay": 10,
+			"maxPay": 150,
+			"cooldown": 15
+		},
+		"crime": {
+			"minPay": 50,
+			"maxPay": 250,
+			"cooldown": 20,
+			"backfireChance": 30
+		},
+		"rob": {
+			"cooldown": 60,
+			"backfireChance": 10,
+			"minTargetWallet": 100
+		}
+	}
+
+}
